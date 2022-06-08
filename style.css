@@ -1,0 +1,70 @@
+.picture {
+    grid-area: A;
+    border-radius: 150%;
+    justify-content: center;
+}
+#css-curiosidades ,#css-competencias{
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 100px 300px 0;
+    grid-template-areas: 'A B C';
+    grid-template-rows: 1fr 0.5fr;
+    background-color: #CCD1D1;
+    padding: 20px;
+}
+
+#A {
+    grid-area: A;
+    background-color: #788475;
+}
+
+.col-a {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+.col-b {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.col-c {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.col-bc {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.contact {
+    font-family: monospace;
+}
+
+.apresentation {
+    font-size: 20px;
+}
+
+#experience, #education{
+    font-size: 20px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#skills {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#Curiosidades {
+    margin-top: 420px;
+}
+

@@ -4,47 +4,51 @@
     <meta charset="UTF-8">
     <title>Currículo</title>
     <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/2815/premium/2815429.png?token=exp=1654691553~hmac=62c66e07217173af061bc348b5a9f1b4">
-    <style>
-        .picture {
-            border-radius: 100%;
-        }
-        #css-curiosidades ,#css-competencias{
-            font-size: 20px;
-        }
-        body {
-            background-color: #CCD1D1 ;
-        }
-        p {
-            font-size: 18px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+    <div class="container">
 <body>
-    <h1>Thierry de Ridder Martins Varela</h1>
-    <img src="/assets/perfil.jpeg" alt="homem jovem de óculos sorrindo" width="200" class="picture">
+    <h1 class="col-bc">Thierry de Ridder Martins Varela</h1>
+    <img src="/assets/perfil.jpeg" alt="homem jovem de óculos sorrindo" width="250" class="picture">
+
+    <div class="contact col-a">
     <h2>Contato:</h2>
     <p>Telefone: <a href="https://wa.me/554199x999999" target="_blank">41 999x99-9999</a></p>
     <p>Email: varelathierry@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/varela-thierry/" target="_blank">Linkedin</p></a>
+    <p><a href="https://www.linkedin.com/in/varela-thierry/"  target="_blank">Linkedin</p></a>
 
+    </div>
+    <div class="apresentation col-bc">
     <h2>Apresentação:</h2>
-    <p>Curitibano, formado em <strong>Tecnologia em Negócios Imobiliários</strong> pela <strong>Universidade Federal do Paraná</strong>. Trabalhei na área <br>de imóveis durante 5 anos (como estagiário, corretor e faz-tudo😁) na antiga Apolar Umbará e na Invista Bem Imóveis.<br><br>
+    <p><strong>Curitibano</strong>, formado em <strong>Tecnologia em Negócios Imobiliários</strong> pela <strong>Universidade Federal do Paraná</strong>. Trabalhei na área <br>de imóveis durante 5 anos (como estagiário, corretor e faz-tudo😁) na antiga Apolar Umbará e na Invista Bem Imóveis.<br><br>
         Atualmente, sou um <strong>estudante de desenvolvimento web full-stack na Trybe</strong>. Sou <strong>apaixonado</strong> por: Jogos, leitura,<br> solucionar problemas, atividade física ouvindo <a href="https://jovemnerd.com.br/nerdcast/" target="_blank">podcasts</a> e desafios.<br><br>
         Tenho estudado <strong>HTML</strong>, <strong>CSS</strong> e <strong>Javascript</strong>.<br><br>
         <em>"Quer você pense que pode ou não, você está certo."</em></p>
-
+    </div>
+        <div>
         <h2>Índice:</h2>
 
         <ul>
             <li><a href="#Experiência"><h3>Experiência</h3></a></li>
-            <li><a href="#Educação"><h3>Educação</h3></a></li>
             <li><a href="#Curiosidades"><h3>Curiosidades</h3></a></li>
             <li><a href="#Competências"><h3>Competências</h3></a></li>
+            <li><a href="#Educação"><h3>Educação</h3></a></li>
+            
         </ul>
 
+        <h2 id="Curiosidades">Curiosidades:</h2>
 
-        <h2 id="Experiência">Experiência:</h2>
+            <ol id="css-curiosidades">
+                <li>Viciado em café. ☕</li>
+                <li>Leitor assíduo de HP LoveCraft. 🐙</li>
+                <li>Fã de rap internacional. 🎙️</li>
+                <li>Jogador de Rpg de Mesa. 🎲</li>
+            </ol>
+        </div>
+
+        <div id="experience">
+            <h2 id="Experiência">Experiência:</h2>
 
         <h3>Auxiliar administrativo e Corretor Imobiliário</h3>
         <img src="https://media-exp1.licdn.com/dms/image/C4D2DAQEo2zXpZDPq7w/profile-treasury-image-shrink_1920_1920/0/1653682351269?e=1655247600&v=beta&t=5JJSrLwUZ0lqBvX96-DJ3-8Rm_7SNRZB_RmQL16bh6k" alt="Foto da frente do plantão de vendas" width="300">
@@ -57,10 +61,20 @@
         <p>Apolar Imóveis · Tempo integral</p>
         <p>jan de 2016 - nov de 2018 · 2 anos 11 meses</p>
         <p>Atividades: Atendimento ao cliente · Melhoria de processos · Trabalho em equipe · Gestão de relacionamento com o cliente (CRM)</p>
+        </div>
+        
+        <div id="skills"><h2 id="Competências">Competências:</h2>
 
 
+        <ul id="css-competencias">
+            <li>Trabalho em equipe;</li><br>
+            <li><strong>Solução de problemas;</strong></li><br>
+            <li>Iniciativa;</li><br>
+            <li>Criatividade;</li><br>
+        </ul>
+    </div>
 
-        <h2 id="Educação">Educação:</h2>
+        <div id="education"><h2 id="Educação">Educação:</h2>
 
         <h3>Trybe</h3>
         <img src="https://s2.glbimg.com/ELbl4VZzRzJFesriTUUGpq5jWkY=/e.glbimg.com/og/ed/f/original/2020/02/27/trybe02.jpg" alt="hub da trybe" width="300">
@@ -71,28 +85,11 @@
         <img src="https://www.cursoorion.com.br/wp-content/uploads/2019/04/SEPT_fachada_web.jpg" alt="Fachada sept ufpr" width="300">
         <p>Curso Superior de Tecnologia (CST), Tecnologia em negócios imobiliários</p>
         <p>jan de 2016 - set de 2020</p>
+        </div>
 
-
-        <h2 id="Curiosidades">Curiosidades:</h2>
-
-        <ol id="css-curiosidades">
-            <li>Viciado em café. ☕</li>
-            <li>Leitor assíduo de HP LoveCraft. 🐙</li>
-            <li>Fã de rap internacional. 🎙️</li>
-            <li>Jogador de Rpg de Mesa. 🎲</li>
-        </ol>
-
-        <h2 id="Competências">Competências:</h2>
-
-
-        <ul id="css-competencias">
-            <li>Trabalho em equipe;</li><br>
-            <li><strong>Solução de problemas;</strong></li><br>
-            <li>Iniciativa;</li><br>
-            <li>Criatividade;</li><br>
-        </ul>
+        
 <br>
-
+    </div>
 
 </body>
 </html>
