@@ -15,19 +15,29 @@ p {
     /* flex-direction: row; */
     margin: 100px 300px 0;
     background-color: #CCD1D1;
-    padding: 20px;
-
 }
 .col-a {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: #788475;
+    background-color: #395886;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: inherit;
     
 }
-
+#contact a{
+    border: 1px solid white;
+}
+a:hover {
+    color: #79A6BE;
+}
 .col-b {
+    margin-left: 20px;
+    margin-right: 10px;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
 }
 .contact {
     font-family: monospace;
@@ -48,6 +58,53 @@ p {
 }
 
 #Curiosidades {
-    margin-top: 220px;
+    margin-top: 420px;
 }
 
+#description {
+    display: flex;
+}
+
+#photo {
+    margin-left: 40px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    padding: 10px;
+}
+
+.apresentation h1 {
+    color: #395886;
+}
+
+h2 {
+    color: #79A6BE;
+}
+.col-b h3 {
+    color: #020B29;
+}
+.margin {
+    margin-left: 20px;
+}
+
+#name {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#index {
+    margin-top: 40px;
+}
+
+ul#css-competencias li:nth-child(odd) {
+    color: gray;
+    font-family: sans-serif;
+}
+
+ul#css-competencias li:nth-child(even) {
+    color: #020B29;
+}
+
+.col-b p {
+    color: #48494B;
+}
