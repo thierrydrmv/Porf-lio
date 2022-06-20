@@ -27,7 +27,7 @@ a {
     color: inherit;
     
 }
-#contact a{
+#contact a, #podcast{
     border: 1px solid white;
 }
 a:hover {
